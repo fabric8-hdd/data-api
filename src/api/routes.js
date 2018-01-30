@@ -1,7 +1,7 @@
 var req_handlers = require("./handlers.js").request_handlers()
 
-var appRouter = function (app) {
-	app.get("/api/v1.0/hypothesis/:hypothesis_id/", function (req, res) {
+var appRouter = function (app, route_prefix) {
+	app.get(route_prefix + "/hypothesis/:hypothesis_id/", function (req, res) {
 		console.log("The request body is: ", req.params.hypothesis_id)
 		req_handlers.get_hypothesis_res(req.params.hypothesis_id).then(function (result) {
 			res.status(200)
@@ -14,12 +14,12 @@ var appRouter = function (app) {
 		})
 	}),
 
-		app.get("/api/v1.0/readiness", function (req, res) {
+		app.get(route_prefix + "/readiness", function (req, res) {
 			res.status(200);
 			res.end();
 		}),
 
-		app.get("/api/v1.0/liveness", function (req, res) {
+		app.get(route_prefix + "/liveness", function (req, res) {
 			res.status(200);
 			res.end();
 		})
