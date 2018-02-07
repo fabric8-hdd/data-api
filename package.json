@@ -1,5 +1,5 @@
 {
-    "name": "data-api",
+    "name": "fabric8-hypothesis-data-api",
     "version": "0.0.1",
     "description": "Node.js applicaiton that performs configured experiments on data ingested by hdd scouts and enable users verify(or disprove) their hypothesis.",
     "dependencies": {
@@ -17,14 +17,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fabric8-hdd/data-api"
+        "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api"
     },
     "author": "Anmol Babu <anmolbudugutta@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fabric8-hdd/data-api/issues"
+        "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api/issues"
     },
-    "homepage": "https://github.com/fabric8-hdd/data-api",
+    "homepage": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api",
     "devDependencies": {
         "eslint": "^4.16.0",
         "chai": "^4.1.2",
