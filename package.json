@@ -5,7 +5,7 @@
     "dependencies": {
         "express": "^4.16.2",
         "validator": "^9.2.0",
-        "hypothesis-core": "github:fabric8-hdd/hypothesis-core"
+        "hypothesis-core": "github:fabric8-hypothesis/fabric8-hypothesis-core"
     },
     "engine": {
         "node": "*",
@@ -17,14 +17,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api"
+        "url": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-data-api"
     },
     "author": "Anmol Babu <anmolbudugutta@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api/issues"
+        "url": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-data-api/issues"
     },
-    "homepage": "https://github.com/fabric8-hdd/fabric8-hypothesis-data-api",
+    "homepage": "https://github.com/fabric8-hypothesis/fabric8-hypothesis-data-api",
     "devDependencies": {
         "eslint": "^4.16.0",
         "chai": "^4.1.2",
